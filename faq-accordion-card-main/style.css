@@ -13,7 +13,7 @@ body{
     box-sizing: border-box;
 }
 .accordian-card{
-    max-width: 1440px;
+    width: 1000px;
     background-color: white;
     color: black;
     padding: 30px,30px,30px,0;
@@ -26,6 +26,8 @@ body{
 .faq{
      margin: 80px;
      display: inline;
+     width: 400px;
+     
 }
 .faq h1{
     margin-bottom: 60px;
@@ -33,55 +35,15 @@ body{
 .qa{ 
     padding-left: 0;
 }
-.q1{
+
+.qstyle{
     color: black;
     cursor: pointer;
 }
-.q1:hover{
-    color: orangered;
-    
-}
-.q2{
-    color: black;
-    cursor: pointer;
-}
-.q2:hover{
+.qstyle:hover{
     color: orangered;
 }
-.q3{
-    color: black;
-    cursor: pointer;
-}
-.q3:hover{
-    color: orangered;
-}
-.q4{
-    color: black;
-    cursor: pointer;
-}
-.q4:hover{
-    color: orangered;
-}
-.q5{
-    color: black;
-    cursor: pointer;
-}
-.q5:hover{
-    color: orangered;
-}
-.ans1{
-    font-size: small;
-}
-.ans2{
-    font-size: small;
-}
-.ans3{
-    font-size: small;
-}
-.ans4{
-    font-size: small;
-}
-.ans5{
+.answer{
     font-size: small;
 }
 .hidden{
@@ -89,4 +51,12 @@ body{
 }
 .up{
   transform: rotate(180deg);
+}
+.question{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bold{
+     font-weight: 900;
 }
